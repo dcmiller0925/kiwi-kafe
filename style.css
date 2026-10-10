@@ -1,0 +1,43 @@
+/*
+Color Scheme Hex:
+    dark khaki: #202000
+    floral white: #f9f7ec
+    banana cream: #fdf169
+    lemon lime: #cacf01
+    lime moss: #90b602
+    olive leaf: #4b5c06
+*/
+
+.featured {
+    background-color: #4b5c06;
+    padding: 10px 5px 5px 10px;
+    border-radius: 10px;
+}
+
+.featured .featured-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured .featured-top h1 {
+    padding: 15px;
+    color: #202020;
+}
+
+.featured .featured-top a {
+    color: #202020;
+}
+
+.featured .row {
+    margin: 10px;
+}
+
+.featured .row .card {
+    background-color: #f9f7ec;
+}
+
+.featured .row .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
