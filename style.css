@@ -8,26 +8,58 @@ Color Scheme Hex:
     olive leaf: #4b5c06
 */
 
+/*Fonts*/
+.bagel-fat-one-regular {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f9f7ec;
+    font-size: 16px;
 }
 
 .navbar {
     background-color: #4b5c06;
+}
 
-    color: #202020;
+.navbar-brand {
+    font-family: "Bagel Fat One", system-ui;
+    color: #fdf169;
 }
 
 .navbar .navbar-brand img {
     border-radius: 6px;
 }
 
+.navbar .drawer-header{
+    background-color: #4b5c06;
+    font-family: "Bagel Fat One", system-ui;
+}
+
+.navbar .drawer-body {
+    background-color: #4b5c06;
+}
+
 .navbar .drawer-body a {
     color: #fdf169;
+    font-family: Arial, system-ui;
+}
+
+.navbar .drawer-body a:hover {
+    font-weight: bold;
 }
 
 .navbar .drawer-body a.active {
-    color: #202020;
+    color: #f9f7ec;
+    font-family: Arial, system-ui;
+    font-weight: normal;
 }
 
 .hero {
@@ -56,27 +88,30 @@ body {
     z-index: 1;
     color: #202020;
     text-align: center;
-    width: 25%;
+    width: 50%;
     background-color: #f9f7ec;
     border-radius: 50%;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
 
 .hero-text p {
     margin: 0;
+    font-family: Arial, system-ui;
+    font-size: 3vw;
 }
 
 .hero-text h1 {
+    font-family: "Bagel Fat One", system-ui;
+    font-size: 6vw;
     padding: 0;
     margin: 0;
 }
 
 .featured {
-    /*background-color: #4b5c06;*/
     background-image: linear-gradient(to right, #90b602, #fdf169);
     margin: 20px 10px 10px 20px;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     border-radius: 10px;
 }
 
@@ -85,13 +120,20 @@ body {
     justify-content: space-between;
 }
 
-.featured .featured-top h1 {
+.featured .featured-top h2 {
     color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
 }
 
 .featured .featured-top a {
     color: #202020;
-    margin: 10px 35px 5px 0;
+    margin: 10px 0 10px 0;
+    padding: 0 35px 0 0;
+}
+
+.featured .featured-top a:hover {
+    font-weight: bold;
 }
 
 .featured .row {
@@ -107,4 +149,176 @@ body {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+.about-us {
+    background-image: linear-gradient(to right, #90b602, #fdf169);
+    margin: 20px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.about-us .about-us-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .about-us-top h2 {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+}
+
+.about-us .about-us-top a {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 35px 0 0;
+}
+
+.about-us .about-us-top a:hover {
+    font-weight: bold;
+}
+
+.about-us p {
+    color: #202020;
+    margin: 10px 35px 5px 35px;
+}
+
+.fact {
+    background-image: linear-gradient(to right, #90b602, #fdf169);
+    margin: 20px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.fact .fact-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fact .fact-top h2 {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+}
+
+.fact .fact-top a {
+    color: #202020;
+    margin: 10px 0 10px 10px;
+    padding: 0 35px 0 0;
+}
+
+.fact .fact-top a:hover {
+    font-weight: bold;
+}
+
+.fact .fact-top p {
+    color: #202020;
+    margin: 10px 0 10px 0;
+}
+
+.fact p {
+    color: #202020;
+    margin: 10px 35px 5px 35px;
+}
+
+.reviews {
+    background-image: linear-gradient(to right, #90b602, #fdf169);
+    margin: 20px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.reviews h2 {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+}
+
+.reviews .slide {
+    background-color: #f9f7ec;
+    border-radius: 10px;
+    color: #202020;
+    margin: 10px 35px 5px 35px;
+}
+
+.reviews .slide .carousel-item {
+    padding: 10px;
+}
+
+.reviews .slide .carousel-item p {
+    color: #202020;
+}
+
+.reviews .carousel .d-flex button {
+    background-color: #4b5c06;
+    color: #f9f7ec;
+    margin: 0 0 5px 10px;
+}
+
+.reviews .carousel .d-flex .carousel-indicators {
+    margin: 0 10px 0 0;
+}
+
+.contact {
+    background-image: linear-gradient(to right, #90b602, #fdf169);
+    margin: 20px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.contact h2 {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+}
+
+.contact .contact-form {
+    color: #202020;
+    margin: 10px 0 20px 35px;
+}
+
+.contact .contact-form div {
+    margin: 10px 0 0 0;
+}
+
+.contact .contact-form button {
+    margin: 10px 0 0 0;
+    background-color: #4b5c06;
+    color: #f9f7ec;
+    border-radius: 10px;
+    border: none;
+}
+
+footer {
+    background-color: #4b5c06;
+    padding: 5px;
+}
+
+footer .footer-links {
+    margin: 20px 0 10px 20px;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+    color: #fdf169;
+    padding: 10px 5px 10px 5px;
+}
+
+footer .footer-links img {
+    border-radius: 10px;
+}
+
+footer .social-media {
+    margin: 20px 0 10px 20px;
+}
+
+footer .social-media a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer p {
+    margin: 20px 0 10px 32px;
+    color: #fdf169;
 }
