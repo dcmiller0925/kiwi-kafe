@@ -16,13 +16,13 @@ Color Scheme Hex:
 }
 
 
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     background-color: #f9f7ec;
-    font-size: 16px;
 }
 
 .navbar {
@@ -98,12 +98,12 @@ body {
 .hero-text p {
     margin: 0;
     font-family: Arial, system-ui;
-    font-size: 3vw;
+    font-size: clamp(1rem, 2vw + .25rem, 2rem);
 }
 
 .hero-text h1 {
     font-family: "Bagel Fat One", system-ui;
-    font-size: 6vw;
+    font-size: clamp(2rem, 2vw + 1rem, 3rem);
     padding: 0;
     margin: 0;
 }
@@ -115,24 +115,21 @@ body {
     border-radius: 10px;
 }
 
-.featured .featured-top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.featured .featured-top h2 {
+.featured h2 {
     color: #202020;
     margin: 10px 0 10px 0;
     padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
 }
 
-.featured .featured-top a {
+.featured a {
     color: #202020;
     margin: 10px 0 10px 0;
-    padding: 0 35px 0 0;
+    padding: 0 0 0 35px;
+    font-size: clamp(1rem, 2vw + 1rem, 1.5rem);
 }
 
-.featured .featured-top a:hover {
+.featured a:hover {
     font-weight: bold;
 }
 
@@ -158,24 +155,21 @@ body {
     border-radius: 10px;
 }
 
-.about-us .about-us-top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-us .about-us-top h2 {
+.about-us h2 {
     color: #202020;
     margin: 10px 0 10px 0;
     padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
 }
 
-.about-us .about-us-top a {
+.about-us a {
     color: #202020;
     margin: 10px 0 10px 0;
-    padding: 0 35px 0 0;
+    padding: 0 0 0 35px;
+    font-size: clamp(1rem, 2vw + 1rem, 1.5rem);
 }
 
-.about-us .about-us-top a:hover {
+.about-us a:hover {
     font-weight: bold;
 }
 
@@ -191,30 +185,22 @@ body {
     border-radius: 10px;
 }
 
-.fact .fact-top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.fact .fact-top h2 {
+.fact h2 {
     color: #202020;
     margin: 10px 0 10px 0;
     padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
 }
 
-.fact .fact-top a {
-    color: #202020;
-    margin: 10px 0 10px 10px;
-    padding: 0 35px 0 0;
-}
-
-.fact .fact-top a:hover {
-    font-weight: bold;
-}
-
-.fact .fact-top p {
+.fact a {
     color: #202020;
     margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+    font-size: clamp(1rem, 2vw + 1rem, 1.5rem);
+}
+
+.fact a:hover {
+    font-weight: bold;
 }
 
 .fact p {
@@ -233,6 +219,7 @@ body {
     color: #202020;
     margin: 10px 0 10px 0;
     padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
 }
 
 .reviews .slide {
@@ -271,6 +258,7 @@ body {
     color: #202020;
     margin: 10px 0 10px 0;
     padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
 }
 
 .contact .contact-form {
