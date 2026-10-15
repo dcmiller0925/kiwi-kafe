@@ -311,3 +311,205 @@ footer p {
     margin: 20px 0 10px 32px;
     color: #fdf169;
 }
+
+.mission {
+    background-image: linear-gradient(to right, #90b602, #fdf169);
+    margin: 20px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.mission h2 {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+}
+
+.mission .content {
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    padding: 10px 35px;
+}
+
+.mission .content p {
+    color: #202020;
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;  
+}
+
+.mission .content img {
+    width: 45%;
+    max-width: 450px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .mission .content {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .mission h2 {
+        padding-left: 10px;
+    }
+
+    .mission .content img {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .mission {
+        margin: 15px 10px;
+        padding: 10px;
+    }
+
+    .mission h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.who-we-are {
+    background-image: linear-gradient(to right, #90b602, #fdf169);
+    margin: 20px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.who-we-are h2 {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+}
+
+.who-we-are .content {
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    padding: 10px 35px;
+}
+
+.who-we-are .content img {
+    width: 45%;
+    max-width: 450px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.who-we-are .content p {
+    color: #202020;
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;  
+}
+
+@media (max-width: 768px) {
+    .who-we-are .content {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .who-we-are h2 {
+        padding-left: 10px;
+    }
+
+    .who-we-are .content img {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .who-we-are {
+        margin: 15px 10px;
+        padding: 10px;
+    }
+
+    .who-we-are h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.how-we-started {
+    background-image: linear-gradient(to right, #90b602, #fdf169);
+    margin: 20px 10px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.how-we-started h2 {
+    color: #202020;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 35px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+}
+
+.how-we-started .content {
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    padding: 10px 35px;
+}
+
+.how-we-started .content p {
+    color: #202020;
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.how-we-started .content img {
+    width: 45%;
+    max-width: 450px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .how-we-started .content {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .how-we-started h2 {
+        padding-left: 10px;
+    }
+
+    .how-we-started .content img {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .how-we-started {
+        margin: 15px 10px;
+        padding: 10px;
+    }
+
+    .how-we-started h2 {
+        font-size: 1.6rem;
+    }
+}
+
